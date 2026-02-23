@@ -1,0 +1,40 @@
+[
+  {
+    "usuario": "paulinaencinas@gmail.com",
+    "reproducciones": [
+      { "contenido": "Breaking Bad", "fecha": "2024-11-01T20:30:00" },
+      { "contenido": "Game of Thrones", "fecha": "2024-11-02T18:45:00" },
+      { "contenido": "Friends", "fecha": "2024-11-03T22:15:00" }
+    ]
+  },
+  {
+    "usuario": "nereaalcalde@gmail.com",
+    "reproducciones": [
+      { "contenido": "The Office",
+        "fecha": "2024-11-01T19:00:00" },
+      { "contenido": "Stranger Things", "fecha": "2024-11-02T21:30:00" }
+    ]
+  },
+  {
+    "usuario": "marcoasensio@gmail.com",
+    "reproducciones": [
+      { "contenido": "Black Mirror", "fecha": "2024-11-01T20:00:00" },
+      { "contenido": "The Crown", "fecha": "2024-11-03T22:00:00" },
+      { "contenido": "Breaking Bad", "fecha": "2024-11-04T18:00:00" }
+    ]
+  },
+  {
+    "usuario": "fidelparedes@gmail.com",
+    "reproducciones": [
+      { "contenido": "House of Cards", "fecha": "2024-11-02T20:00:00" },
+      { "contenido": "The Queen's Gambit", "fecha": "2024-11-03T19:30:00" }
+    ]
+  },
+  {
+    "usuario": "juannieto@gmail.com",
+    "reproducciones": [
+      { "contenido": "Friends", "fecha": "2024-11-02T18:00:00" },
+      { "contenido": "Stranger Things", "fecha": "2024-11-03T20:15:00" }
+    ]
+  }
+]

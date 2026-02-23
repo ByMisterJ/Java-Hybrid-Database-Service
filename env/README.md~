@@ -1,0 +1,46 @@
+# Databases
+
+## Development (Docker)
+
+### Start Postgresql service
+
+Be in the same working directory as this Readme.
+
+Build docker image:
+
+``` shell
+$ docker build . -t my-postgres:1.0
+```
+
+Run docker image:
+
+``` shell
+$ docker run -d -p 5432:5432 --volume ./postgresql-data:/var/lib/postgresql --name my-postgres my-postgres:1.0
+```
+
+You can connect to Postgres with the URL
+`postgresql://postgres:postgrespass@localhost:5432`.
+
+### Start Dynamodb service
+
+Run the DynamoDB container:
+
+``` shell
+$ docker run -d -p 8000:8000 --volume ./dynamodb-data:/home/dynamodblocal/data --name my-dynamodb circleci/dynamodb
+```
+
+Pull the DynamoDB local image:
+
+``` shell
+$ docker pull circleci/dynamodb:latest
+```
+
+Run the script with:
+
+``` shell
+$ uv run main.py
+```
+
+## Production (AWS)
+
+TODO
