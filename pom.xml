@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.examen</groupId>
     <artifactId>ExamenAD</artifactId>
@@ -23,18 +20,14 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
-        <!-- PostgreSQL JDBC Driver -->
-        <!--
-         https://mvnrepository.com/artifact/org.postgresql/postgresql
-        -->
+        <!--  PostgreSQL JDBC Driver  -->
+        <!--  https://mvnrepository.com/artifact/org.postgresql/postgresql  -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>42.7.4</version>
         </dependency>
-        <!--
-         https://mvnrepository.com/artifact/com.opencsv/opencsv
-        -->
+        <!--  https://mvnrepository.com/artifact/com.opencsv/opencsv  -->
         <dependency>
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
@@ -44,48 +37,36 @@
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>dynamodb</artifactId>
         </dependency>
-        <!--
-         https://mvnrepository.com/artifact/software.amazon.awssdk/dynamodb-enhanced
-        -->
+        <!--  https://mvnrepository.com/artifact/software.amazon.awssdk/dynamodb-enhanced  -->
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>dynamodb-enhanced</artifactId>
         </dependency>
-        <!--
-         https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl
-        -->
+        <!--  https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl  -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
             <version>2.24.1</version>
         </dependency>
-        <!--
-         https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
-        -->
+        <!--  https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind  -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.18.0</version>
         </dependency>
-        <!--
-         https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml
-        -->
+        <!--  https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml  -->
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-xml</artifactId>
             <version>2.18.0</version>
         </dependency>
-        <!--
-         https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310
-        -->
+        <!--  https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310  -->
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
             <version>2.18.0</version>
         </dependency>
-        <!--
-         https://mvnrepository.com/artifact/org.projectlombok/lombok
-        -->
+        <!--  https://mvnrepository.com/artifact/org.projectlombok/lombok  -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
