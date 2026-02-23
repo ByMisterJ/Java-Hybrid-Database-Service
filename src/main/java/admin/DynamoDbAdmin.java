@@ -97,9 +97,9 @@ public class DynamoDbAdmin {
     }
 
     public static void main(String[] args) {
-        String nombreTabla = "xxxxxxx";
+        String nombreTabla = "examenjose";
         borrarTabla(nombreTabla);
-        // crearTabla(nombreTabla);
+        crearTabla(nombreTabla);
     }
 
 }
