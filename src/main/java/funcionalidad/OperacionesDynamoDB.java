@@ -29,6 +29,7 @@ public class OperacionesDynamoDB {
     public static DynamoDbClient getCliente() {
         if (dynamoDbClient == null) {
             Properties properties = new Properties();
+            //try-with-resources
             try (InputStream input = OperacionesDynamoDB.class.getClassLoader().getResourceAsStream("dynamodb.properties")) {
                 properties.load(input);
 

@@ -19,6 +19,7 @@ public class OperacionesJson {
     private static final ObjectMapper objectMapper = new ObjectMapper().registerModule(new JavaTimeModule());
 
     public static List<Historial> leerHistorialDeJson(Path ruta) {
+        //try-with-resources
         try (Reader reader = Files.newBufferedReader(ruta)) {
             return objectMapper.readValue(reader, new TypeReference<>() {});
         } catch (IOException e) {

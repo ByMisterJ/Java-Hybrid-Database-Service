@@ -96,6 +96,7 @@ public class DynamoDbAdmin {
         }
     }
 
+
     public static void main(String[] args) {
         String nombreTabla = "examenjose";
         borrarTabla(nombreTabla);

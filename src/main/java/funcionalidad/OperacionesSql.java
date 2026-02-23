@@ -20,6 +20,7 @@ public class OperacionesSql {
     // Cargar las propiedades de conexión desde rds.properties
     public static void loadDatabaseProperties() {
         Properties properties = new Properties();
+        //try-with-resources
         try (InputStream input = OperacionesSql.class.getClassLoader().getResourceAsStream("rds.properties")) {
             properties.load(input);
             URL = properties.getProperty("db.url");
