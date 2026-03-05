@@ -2,6 +2,8 @@
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-%234EBB4B.svg?&style=for-the-badge&logo=amazondynamodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?&style=for-the-badge&logo=postgresql&logoColor=white)
 
+Sistema de gestión de historial de streaming con persistencia políglota. Implementa la ingesta de datos desde JSON (Jackson) hacia una arquitectura híbrida utilizando PostgreSQL (RDS) para datos relacionales de usuarios y DynamoDB para el almacenamiento escalable de historiales de reproducción. Incluye integración con AWS SDK v2, operaciones Batch y arquitectura modular en Java.
+
 | Requisito                                | Implementación                                                                        |
 |------------------------------------------|---------------------------------------------------------------------------------------|
 | **Lectura JSON con Jackson**             | `OperacionesJson` con `ObjectMapper` y anotaciones `@JsonProperty`                    |
