@@ -1,5 +1,5 @@
-# Puntos clave del examen
-#### Esto lo acabe el 24/02/26 a las 03:44 (Ahora mismo entiendo la mitad)
+# Puntos clave
+
 
 | Requisito                                | Implementación                                                                        |
 |------------------------------------------|---------------------------------------------------------------------------------------|
