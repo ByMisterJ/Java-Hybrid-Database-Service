@@ -1,5 +1,6 @@
 # Puntos clave
-
+![DynamoDB](https://img.shields.io/badge/DynamoDB-%234EBB4B.svg?&style=for-the-badge&logo=amazondynamodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?&style=for-the-badge&logo=postgresql&logoColor=white)
 
 | Requisito                                | Implementación                                                                        |
 |------------------------------------------|---------------------------------------------------------------------------------------|
